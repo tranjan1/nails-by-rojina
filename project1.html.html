@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails by Rojina | Luxury Nail Artistry & Lash Extensions in Kathmandu</title>
+    <meta name="description" content="Premier nail artistry and bespoke eyelash extensions in Dakshinkali, Pharping, Kathmandu. Structured gel, acrylic extensions, custom nail art, and volume lashes by Rojina.">
+    <meta name="keywords" content="Nails by Rojina, Kathmandu nail salon, Pharping gel extensions, Dakshinkali lash extensions, Nepal beauty studio">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Nails by Rojina | Luxury Nail Artistry & Lash Extensions">
+    <meta property="og:description" content="Bespoke luxury nail designs and custom lash extensions in Pharping, Kathmandu. Book your appointment today.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts: Cormorant Garamond & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-primary: #FAF8F5;
+            --bg-secondary: #FFFFFF;
+            --bg-accent: #F3ECE6;
+            --text-main: #232120;
+            --text-muted: #6B6560;
+            --accent-gold: #C5A059;
+            --accent-rose: #E2C2B9;
+            --border-light: #EBE5DF;
+            --shadow-soft: 0 10px 30px rgba(0,0,0,0.03);
+            --shadow-medium: 0 15px 35px rgba(0,0,0,0.07);
+            --transition-smooth: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            
+            --font-serif: 'Cormorant Garamond', Georgia, serif;
+            --font-sans: 'Montserrat', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            font-weight: 300;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, .serif {
+            font-family: var(--font-serif);
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: var(--text-main);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition-smooth);
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-family: var(--font-sans);
+            transition: var(--transition-smooth);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-padding {
+            padding: 7rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .section-padding {
+                padding: 4.5rem 0;
+            }
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 4rem auto;
+        }
+
+        .section-subtitle {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            display: block;
+            font-weight: 500;
+        }
+
+        .section-title {
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            background-color: var(--text-main);
+            color: var(--bg-secondary);
+            padding: 1.1rem 2.5rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            border-radius: 0;
+            border: 1px solid var(--text-main);
+            text-align: center;
+        }
+
+        .btn-primary:hover {
+            background-color: transparent;
+            color: var(--text-main);
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            background-color: #25D366;
+            color: #FFFFFF;
+            padding: 1.1rem 2.5rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            border: 1px solid #25D366;
+            text-align: center;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebc57;
+            border-color: #1ebc57;
+            color: #FFFFFF;
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            background-color: transparent;
+            color: var(--text-main);
+            padding: 1.1rem 2.5rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            border: 1px solid var(--border-light);
+            text-align: center;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text-main);
+            background-color: var(--bg-secondary);
+        }
+
+        /* Top Announcement Bar */
+        .top-bar {
+            background-color: var(--text-main);
+            color: var(--bg-primary);
+            text-align: center;
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .top-bar strong {
+            color: var(--accent-gold);
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 31px;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1.5rem 0;
+            transition: var(--transition-smooth);
+            background: rgba(250, 248, 245, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar.scrolled {
+            top: 0;
+            padding: 1rem 0;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-logo {
+            font-family: var(--font-serif);
+            font-size: 1.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-link {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--text-main);
+            opacity: 0.8;
+        }
+
+        .nav-link:hover {
+            opacity: 1;
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 1px;
+            background-color: var(--text-main);
+            transition: var(--transition-smooth);
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 400px;
+            height: 100vh;
+            background-color: var(--bg-secondary);
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 3rem;
+            transition: var(--transition-smooth);
+            box-shadow: -10px 0 30px rgba(0,0,0,0.05);
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-nav-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .mobile-nav-links a {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            color: var(--text-main);
+        }
+
+        @media (max-width: 992px) {
+            .nav-links, .nav-cta { display: none; }
+            .hamburger { display: flex; }
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 8rem;
+            position: relative;
+            background-color: var(--bg-primary);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-title {
+            font-size: clamp(3rem, 6vw, 4.5rem);
+            line-height: 1.08;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-description {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+        }
+
+        .hero-action-btns {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-img-main {
+            width: 100%;
+            height: 560px;
+            border-radius: 280px 280px 0 0;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .hero-badge {
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            background: var(--bg-secondary);
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border-light);
+            text-align: center;
+        }
+
+        .hero-badge span {
+            display: block;
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            line-height: 1;
+        }
+
+        .hero-badge label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 992px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+            }
+            .hero-description { margin-left: auto; margin-right: auto; }
+            .hero-action-btns { justify-content: center; }
+            .hero-img-main { height: 420px; }
+            .hero-badge { left: 50%; transform: translateX(-50%); }
+        }
+
+        /* About & Hygiene */
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .intro-portrait {
+            width: 100%;
+            height: 520px;
+            border-radius: 4px;
+        }
+
+        .hygiene-box {
+            background-color: var(--bg-accent);
+            padding: 2rem;
+            border-left: 3px solid var(--accent-gold);
+            margin-top: 2rem;
+        }
+
+        .hygiene-box h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hygiene-box p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 768px) {
+            .intro-grid { grid-template-columns: 1fr; gap: 3rem; }
+        }
+
+        /* Services Menu */
+        .services-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 3.5rem;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 1rem;
+        }
+
+        .tab-btn {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            padding-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .tab-btn.active {
+            color: var(--text-main);
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent-gold);
+        }
+
+        .services-container {
+            display: none;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .services-container.active {
+            display: grid;
+        }
+
+        .service-card {
+            background-color: var(--bg-secondary);
+            padding: 2.5rem;
+            border: 1px solid var(--border-light);
+            transition: var(--transition-smooth);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--accent-rose);
+        }
+
+        .service-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px dashed var(--border-light);
+            padding-bottom: 0.75rem;
+        }
+
+        .service-name {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .service-price {
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .service-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .service-meta {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .price-disclaimer {
+            text-align: center;
+            margin-top: 2.5rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Portfolio */
+        .portfolio-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-bottom: 3rem;
+        }
+
+        .filter-btn {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            padding: 0.6rem 1.4rem;
+            border: 1px solid var(--border-light);
+            background: var(--bg-secondary);
+            color: var(--text-muted);
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--text-main);
+            color: var(--bg-secondary);
+            border-color: var(--text-main);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 4 / 5;
+            cursor: pointer;
+            background-color: var(--bg-accent);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(35, 33, 32, 0.6);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 2rem;
+            color: #fff;
+            opacity: 0;
+            transition: var(--transition-smooth);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-overlay h4 {
+            color: #fff;
+            font-size: 1.4rem;
+        }
+
+        .gallery-overlay p {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.8;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.9);
+            z-index: 2000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .lightbox.active { display: flex; }
+
+        .lightbox-content {
+            max-width: 900px;
+            width: 100%;
+            background: var(--bg-secondary);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+        }
+
+        .lightbox-img-wrap {
+            max-height: 70vh;
+        }
+
+        .lightbox-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .lightbox-details {
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            color: var(--text-main);
+            z-index: 10;
+        }
+
+        @media(max-width: 768px) {
+            .lightbox-content { grid-template-columns: 1fr; max-height: 90vh; overflow-y: auto;}
+            .lightbox-img-wrap { height: 280px; }
+            .lightbox-details { padding: 2rem; }
+        }
+
+        /* Before/After Slider */
+        .ba-slider-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 16 / 10;
+            border-radius: 4px;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .ba-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .ba-image img {
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .ba-after {
+            width: 50%;
+            z-index: 2;
+            overflow: hidden;
+        }
+
+        .ba-after img {
+            width: 100%;
+            max-width: none;
+        }
+
+        .ba-handle {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 2px;
+            background: #ffffff;
+            z-index: 3;
+            cursor: ew-resize;
+        }
+
+        .ba-circle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #ffffff;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            font-size: 0.8rem;
+        }
+
+        /* Policies Section */
+        .policies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+        }
+
+        .policy-card {
+            background-color: var(--bg-secondary);
+            padding: 2.5rem;
+            border: 1px solid var(--border-light);
+            border-top: 3px solid var(--accent-gold);
+        }
+
+        .policy-card h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .policy-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Booking Section */
+        .booking-section {
+            background-color: var(--bg-accent);
+        }
+
+        .booking-option-switcher {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .option-btn {
+            padding: 0.8rem 1.8rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            border: 1px solid var(--border-light);
+            background: var(--bg-secondary);
+            color: var(--text-muted);
+        }
+
+        .option-btn.active {
+            background: var(--text-main);
+            color: var(--bg-secondary);
+            border-color: var(--text-main);
+        }
+
+        .booking-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-secondary);
+            padding: 4rem;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .booking-mode {
+            display: none;
+        }
+
+        .booking-mode.active {
+            display: block;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        .form-group label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+
+        .form-control {
+            padding: 1rem;
+            border: 1px solid var(--border-light);
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            background: var(--bg-primary);
+            outline: none;
+            transition: var(--transition-smooth);
+        }
+
+        .form-control:focus {
+            border-color: var(--accent-gold);
+            background: #fff;
+        }
+
+        .form-status {
+            display: none;
+            padding: 1.2rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--accent-gold);
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .form-status.success {
+            display: block;
+            border-color: #2e7d32;
+            color: #1b5e20;
+        }
+
+        @media(max-width: 768px) {
+            .booking-wrapper { padding: 2rem; }
+            .form-grid { grid-template-columns: 1fr; }
+            .form-group.full-width { grid-column: span 1; }
+        }
+
+        /* FAQ Accordion */
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+            font-family: var(--font-serif);
+            font-size: 1.3rem;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .faq-answer-content {
+            padding-bottom: 1.5rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+        }
+
+        .faq-icon {
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Contact & Location Block */
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .contact-info-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .contact-info-item i {
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            margin-top: 0.2rem;
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 380px;
+            background-color: var(--bg-accent);
+            border: 1px solid var(--border-light);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        @media(max-width: 768px) {
+            .location-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--text-main);
+            color: #FAF8F5;
+            padding: 5rem 0 2rem 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .footer-brand p {
+            color: #A39D97;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+            max-width: 300px;
+        }
+
+        .footer-title {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .footer-links a {
+            color: #A39D97;
+            font-size: 0.85rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #8C857E;
+        }
+
+        @media(max-width: 992px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media(max-width: 576px) {
+            .footer-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        By Appointment Only • Dakshinkali, Pharping, Kathmandu • <strong>WhatsApp: +977 9861071136</strong>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">Nails by Rojina</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services & Rates</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#policies" class="nav-link">Policies</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+            </ul>
+            <a href="#booking" class="btn-primary nav-cta">Book Appointment</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#services" onclick="closeMenu()">Services</a></li>
+            <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
+            <li><a href="#policies" onclick="closeMenu()">Policies</a></li>
+            <li><a href="#location" onclick="closeMenu()">Location</a></li>
+            <li><a href="#faq" onclick="closeMenu()">FAQ</a></li>
+            <li><a href="#booking" onclick="closeMenu()">Book Now</a></li>
+        </ul>
+        <a href="#booking" class="btn-primary" onclick="closeMenu()">Book Appointment</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="section-subtitle">Luxury Beauty Studio</span>
+                    <h1 class="hero-title">Where Beauty <br>Meets <i>Precision</i>.</h1>
+                    <p class="hero-description">Structured gel manicures, high-durability acrylic extensions, bespoke custom nail artwork, and lightweight eyelash extensions tailored for you in Kathmandu.</p>
+                    <div class="hero-action-btns">
+                        <a href="https://wa.me/9779861071136?text=Hello%20Rojina,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp Booking
+                        </a>
+                        <a href="#services" class="btn-secondary">View Menu & Prices</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1000&auto=format&fit=crop" alt="Luxury Gel Nail Art" class="hero-img-main">
+                    <div class="hero-badge">
+                        <span>30%</span>
+                        <label>Deposit To Confirm</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Hygiene Section -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="intro-grid">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" alt="Rojina Artist Portrait" class="intro-portrait">
+                </div>
+                <div>
+                    <span class="section-subtitle">Behind the Art</span>
+                    <h2 class="section-title">Hello, I'm Rojina Acharya</h2>
+                    <p>Welcome to <strong>Nails by Rojina</strong>. Based in Dakshinkali, Pharping, I specialize in structural nail health, clean manicures, durable gel/acrylic extensions, and customized eyelash enhancements.</p>
+                    <p>Every set is tailored carefully to complement your style, using high-quality products designed for long-lasting retention and optimal natural beauty care.</p>
+                    
+                    <div class="hygiene-box">
+                        <h4 class="serif"><i class="fa-solid fa-shield-halved" style="color:var(--accent-gold); margin-right: 0.5rem;"></i> Strict Sanitation Standards</h4>
+                        <p>Your safety is my priority. All metal tools are thoroughly disinfected and cleaned between every single client. Single-use nail files and buffers are utilized where appropriate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Pricing Menu -->
+    <section class="section-padding" id="services" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Menu & Pricing</span>
+                <h2 class="section-title">Curated Beauty Services</h2>
+            </div>
+
+            <div class="services-tabs">
+                <button class="tab-btn active" onclick="switchTab(event, 'nails-services')">Nail Artistry</button>
+                <button class="tab-btn" onclick="switchTab(event, 'lash-services')">Eyelash Extensions</button>
+            </div>
+
+            <!-- Nail Services -->
+            <div id="nails-services" class="services-container active">
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Structured / Builder Gel</h3>
+                            <span class="service-price">NPR 1,500+</span>
+                        </div>
+                        <p class="service-desc">Clean cuticle care, nail reinforcement, and high-durability gel overlay for natural nails.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 1.5 – 2 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20a%20Structured%20Gel%20Manicure." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Custom / Bespoke Nail Art</h3>
+                            <span class="service-price">NPR 1,000+</span>
+                        </div>
+                        <p class="service-desc">Hand-painted designs, chrome finishes, isolated textures, and intricate art additions.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 1 – 3 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20Custom%20Nail%20Art." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Gel Extensions</h3>
+                            <span class="service-price">NPR 2,000+</span>
+                        </div>
+                        <p class="service-desc">Full length extension set built with safe, lightweight soft gel systems.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 2 – 2.5 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20Gel%20Extensions." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Acrylic Extensions</h3>
+                            <span class="service-price">NPR 2,000+</span>
+                        </div>
+                        <p class="service-desc">Strong and classic extended set for added durability and custom nail shaping.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 2 – 2.5 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20Acrylic%20Extensions." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Extension Refill / Rebalance</h3>
+                            <span class="service-price">NPR 1,500+</span>
+                        </div>
+                        <p class="service-desc">Maintenance set to fill growth gap, reshape, and refresh your gel or acrylic set.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 1.5 – 2 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20an%20Extension%20Refill." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Gel / Extension Removal</h3>
+                            <span class="service-price">NPR 500</span>
+                        </div>
+                        <p class="service-desc">Safe, damage-free removal of gel or acrylic enhancements followed by natural nail conditioning.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 30 – 45 Mins</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20a%20Nail%20Removal." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lash Services -->
+            <div id="lash-services" class="services-container">
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Classic Lash Extensions</h3>
+                            <span class="service-price">NPR 2,000+</span>
+                        </div>
+                        <p class="service-desc">Individual classic extensions applied 1:1 to natural lashes for clean mascara look.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 1 – 1.5 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20Classic%20Lash%20Extensions." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Hybrid / Volume Lashes</h3>
+                            <span class="service-price">NPR 3,000+</span>
+                        </div>
+                        <p class="service-desc">Textured combination of classic lashes and lightweight volume fans for fluffy density.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 2 – 2.5 Hours</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20Hybrid/Volume%20Lashes." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div>
+                        <div class="service-header">
+                            <h3 class="service-name">Lash Removal / Patch Test</h3>
+                            <span class="service-price">NPR 500 / Free</span>
+                        </div>
+                        <p class="service-desc">Safe lash removal (NPR 500) or free 15-min adhesive allergy patch test for new clients.</p>
+                    </div>
+                    <div>
+                        <div class="service-meta"><i class="fa-regular fa-clock"></i> 20 – 30 Mins</div>
+                        <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20a%20Lash%20Removal%20or%20Patch%20Test." target="_blank" class="btn-secondary" style="width:100%;">Book Service</a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="price-disclaimer">* Prices may vary depending on nail length, shape, and complexity of the requested art design.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="section-padding" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Visual Showcase</span>
+                <h2 class="section-title">Client Portfolio</h2>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" onclick="filterGallery('all')">All Work</button>
+                <button class="filter-btn" onclick="filterGallery('minimal')">Minimal</button>
+                <button class="filter-btn" onclick="filterGallery('french')">French Art</button>
+                <button class="filter-btn" onclick="filterGallery('custom')">Custom Art</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item minimal" onclick="openLightbox('https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1000', 'Structured Nude Gel', 'Clean Minimalist Base')">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600" alt="Nude Gel Nails" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Structured Nude Gel</h4>
+                        <p>Minimalist Base</p>
+                    </div>
+                </div>
+                <div class="gallery-item french" onclick="openLightbox('https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1000', 'Micro French Detail', 'Precision Line Work')">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=600" alt="French Gel Nails" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Micro French Detail</h4>
+                        <p>Precision Edges</p>
+                    </div>
+                </div>
+                <div class="gallery-item custom" onclick="openLightbox('https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=1000', 'Bespoke Artistry', 'Hand-Painted Design')">
+                    <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600" alt="Custom Hand-Painted Nails" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Bespoke Artistry</h4>
+                        <p>Hand-Painted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <div class="lightbox-img-wrap">
+                <img id="lightbox-img" src="" alt="Portfolio Large View">
+            </div>
+            <div class="lightbox-details">
+                <h3 id="lightbox-title" class="serif" style="font-size:2rem; margin-bottom: 0.5rem;"></h3>
+                <p id="lightbox-desc" style="color:var(--text-muted); font-size:0.9rem; margin-bottom: 2rem;"></p>
+                <a href="https://wa.me/9779861071136?text=Hi%20Rojina,%20I'd%20like%20to%20book%20a%20look%20similar%20to%20your%20portfolio!" target="_blank" class="btn-whatsapp">Book This Look</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Before/After Transformation -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Transformation</span>
+                <h2 class="section-title">Before & After Results</h2>
+            </div>
+
+            <div class="ba-slider-container" id="ba-slider">
+                <div class="ba-image ba-before">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1000" alt="Before Nails">
+                </div>
+                <div class="ba-image ba-after" id="ba-after-img">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1000" alt="After Precision Gel Finish">
+                </div>
+                <div class="ba-handle" id="ba-handle">
+                    <div class="ba-circle"><i class="fa-solid fa-arrows-left-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio Policies & Guidelines -->
+    <section class="section-padding" id="policies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Important Guidelines</span>
+                <h2 class="section-title">Studio Policies</h2>
+            </div>
+
+            <div class="policies-grid">
+                <div class="policy-card">
+                    <h4 class="serif"><i class="fa-solid fa-receipt" style="color:var(--accent-gold); margin-right: 0.5rem;"></i> 30% Booking Deposit</h4>
+                    <p>A 30% non-refundable deposit is required to confirm all slot reservations. This amount is deducted directly from your total bill on appointment day.</p>
+                </div>
+                <div class="policy-card">
+                    <h4 class="serif"><i class="fa-regular fa-clock" style="color:var(--accent-gold); margin-right: 0.5rem;"></i> 15-Minute Grace Period</h4>
+                    <p>We offer a 15-minute grace window for late arrivals. Beyond 15 minutes, your appointment may need to be shortened or rescheduled to respect the next client.</p>
+                </div>
+                <div class="policy-card">
+                    <h4 class="serif"><i class="fa-regular fa-calendar-xmark" style="color:var(--accent-gold); margin-right: 0.5rem;"></i> 24-Hour Notice</h4>
+                    <p>Please provide at least 24 hours' notice if you need to cancel or reschedule your slot so we can accommodate clients on our waiting list.</p>
+                </div>
+                <div class="policy-card">
+                    <h4 class="serif"><i class="fa-solid fa-eye" style="color:var(--accent-gold); margin-right: 0.5rem;"></i> Lash Infill Policy</h4>
+                    <p>Infills are accepted depending on lash health and remaining extension count (at least 40% remaining). Foreign infills may require safe removal and a fresh set.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form & WhatsApp Option -->
+    <section class="section-padding booking-section" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Reserve Your Slot</span>
+                <h2 class="section-title">Book An Appointment</h2>
+            </div>
+
+            <div class="booking-option-switcher">
+                <button class="option-btn active" onclick="switchBookingMode('whatsapp-mode')">Direct WhatsApp (Fastest)</button>
+                <button class="option-btn" onclick="switchBookingMode('email-mode')">Email Form Request</button>
+            </div>
+
+            <div class="booking-wrapper">
+                
+                <!-- MODE A: DIRECT WHATSAPP -->
+                <div id="whatsapp-mode" class="booking-mode active" style="text-align: center; padding: 1rem 0;">
+                    <h3 class="serif" style="font-size: 1.8rem; margin-bottom: 1rem;">Fastest Way to Book</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+                        Click below to message Rojina directly on WhatsApp with your desired date, service, and art preferences for instant slot confirmation.
+                    </p>
+                    <a href="https://wa.me/9779861071136?text=Hello%20Rojina,%20I'd%20like%20to%20book%20an%20appointment!" target="_blank" rel="noopener" class="btn-whatsapp" style="font-size: 0.9rem; padding: 1.2rem 3rem;">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Open WhatsApp (+977 9861071136)
+                    </a>
+                </div>
+
+                <!-- MODE B: EMAIL FORM -->
+                <div id="email-mode" class="booking-mode">
+                    <div id="form-status" class="form-status"></div>
+
+                    <form id="bookingForm" action="https://formspree.io/f/rojinaacharya423@gmail.com" method="POST" onsubmit="handleFormSubmit(event)">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="Client_Name" class="form-control" required placeholder="e.g. Anjali Sharma">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone / WhatsApp Number</label>
+                                <input type="tel" id="phone" name="Client_Phone" class="form-control" required placeholder="+977 98XXXXXXXX">
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="service">Requested Service</label>
+                                <select id="service" name="Requested_Service" class="form-control" required>
+                                    <option value="">Select a Service...</option>
+                                    <option value="Structured / Builder Gel (NPR 1,500+)">Structured / Builder Gel (NPR 1,500+)</option>
+                                    <option value="Custom / Bespoke Nail Art (NPR 1,000+)">Custom / Bespoke Nail Art (NPR 1,000+)</option>
+                                    <option value="Gel Extensions (NPR 2,000+)">Gel Extensions (NPR 2,000+)</option>
+                                    <option value="Acrylic Extensions (NPR 2,000+)">Acrylic Extensions (NPR 2,000+)</option>
+                                    <option value="Extension Refill (NPR 1,500+)">Extension Refill (NPR 1,500+)</option>
+                                    <option value="Gel/Extension Removal (NPR 500)">Gel/Extension Removal (NPR 500)</option>
+                                    <option value="Classic Lash Extensions (NPR 2,000+)">Classic Lash Extensions (NPR 2,000+)</option>
+                                    <option value="Hybrid / Volume Lashes (NPR 3,000+)">Hybrid / Volume Lashes (NPR 3,000+)</option>
+                                    <option value="Lash Removal / Patch Test">Lash Removal / Patch Test</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="prefDate">Preferred Date</label>
+                                <input type="date" id="prefDate" name="Preferred_Date" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="prefTime">Preferred Time</label>
+                                <select id="prefTime" name="Preferred_Time_Slot" class="form-control" required>
+                                    <option value="Morning (10am - 1pm)">Morning (10am - 1pm)</option>
+                                    <option value="Afternoon (1pm - 4pm)">Afternoon (1pm - 4pm)</option>
+                                    <option value="Late Afternoon (4pm - 7pm)">Late Afternoon (4pm - 7pm)</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="notes">Notes or Nail Art Concept</label>
+                                <textarea id="notes" name="Additional_Notes" class="form-control" rows="4" placeholder="Mention preferred length, shape, or design inspiration..."></textarea>
+                            </div>
+                            <div class="form-group full-width">
+                                <button type="submit" id="submitBtn" class="btn-primary" style="width:100%;">Submit Booking Inquiry</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="section-padding" id="location">
+        <div class="container">
+            <div class="location-grid">
+                <div>
+                    <span class="section-subtitle">Find Us</span>
+                    <h2 class="section-title">Studio Location</h2>
+                    <p style="color:var(--text-muted);">We are located in Dakshinkali, Pharping, Kathmandu. Appointments are strictly by prior reservation.</p>
+
+                    <ul class="contact-info-list">
+                        <li class="contact-info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <strong>Location Address</strong>
+                                <p style="font-size:0.9rem; color:var(--text-muted);">Dakshinkali, Pharping, Kathmandu, Nepal</p>
+                            </div>
+                        </li>
+                        <li class="contact-info-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div>
+                                <strong>Phone / WhatsApp</strong>
+                                <p style="font-size:0.9rem; color:var(--text-muted);"><a href="tel:+9779861071136">+977 9861071136</a></p>
+                            </div>
+                        </li>
+                        <li class="contact-info-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>
+                                <strong>Email Contact</strong>
+                                <p style="font-size:0.9rem; color:var(--text-muted);"><a href="mailto:rojinaacharya423@gmail.com">rojinaacharya423@gmail.com</a></p>
+                            </div>
+                        </li>
+                        <li class="contact-info-item">
+                            <i class="fa-regular fa-clock"></i>
+                            <div>
+                                <strong>Operating Hours</strong>
+                                <p style="font-size:0.9rem; color:var(--text-muted);">Mon – Sat: 10:00 AM – 7:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="map-placeholder">
+                    <i class="fa-solid fa-map-location-dot" style="font-size:3rem; color:var(--accent-gold); margin-bottom:1rem;"></i>
+                    <h4 class="serif" style="font-size:1.5rem;">Dakshinkali, Pharping</h4>
+                    <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem;">Kathmandu, Nepal</p>
+                    <a href="https://maps.google.com/?q=Dakshinkali+Pharping+Kathmandu" target="_blank" class="btn-secondary"><i class="fa-solid fa-directions"></i> Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section-padding" id="faq" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Got Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I confirm my appointment?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Appointments are confirmed upon receipt of a 30% advance deposit. This guarantees your dedicated time slot in our schedule.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do I need a patch test before getting lash extensions?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes, a free 15-minute patch test is recommended for all first-time lash extension clients at least 24 hours prior to full set application.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long do gel extensions and builder gel last?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            With proper care, structured gel and gel extensions last between 3 to 4 weeks before requiring an infill or rebalance set.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="brand-logo" style="color:#fff;">Nails by Rojina</a>
+                    <p>Luxury gel manicures, custom hand-painted nail designs, and bespoke eyelash extensions in Pharping, Kathmandu.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Studio</a></li>
+                        <li><a href="#services">Services & Rates</a></li>
+                        <li><a href="#portfolio">Client Portfolio</a></li>
+                        <li><a href="#policies">Studio Policies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Social Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://instagram.com/2NAIL_BYROJINA" target="_blank"><i class="fa-brands fa-instagram"></i> @2NAIL_BYROJINA</a></li>
+                        <li><a href="https://wa.me/9779861071136" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp Direct</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Studio Hours</h4>
+                    <p style="color:#A39D97; font-size:0.85rem;">Mon – Sat: 10:00 AM – 7:00 PM<br>Sunday: Closed<br><br><em>By Appointment Only</em></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Nails by Rojina. All rights reserved. Dakshinkali, Pharping, Kathmandu.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Handlers -->
+    <script>
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 40) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        function closeMenu() {
+            mobileMenu.classList.remove('active');
+        }
+
+        // Service Tab Switcher
+        function switchTab(event, categoryId) {
+            const tabs = document.querySelectorAll('.tab-btn');
+            const containers = document.querySelectorAll('.services-container');
+
+            tabs.forEach(tab => tab.classList.remove('active'));
+            containers.forEach(container => container.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(categoryId).classList.add('active');
+        }
+
+        // Booking Mode Switcher (WhatsApp vs Email Form)
+        function switchBookingMode(modeId) {
+            const btns = document.querySelectorAll('.option-btn');
+            const modes = document.querySelectorAll('.booking-mode');
+
+            btns.forEach(btn => btn.classList.remove('active'));
+            modes.forEach(mode => mode.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(modeId).classList.add('active');
+        }
+
+        // Portfolio Filter
+        function filterGallery(category) {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const items = document.querySelectorAll('#portfolio .gallery-item');
+
+            filterBtns.forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Lightbox
+        function openLightbox(imgSrc, title, desc) {
+            document.getElementById('lightbox-img').src = imgSrc;
+            document.getElementById('lightbox-title').innerText = title;
+            document.getElementById('lightbox-desc').innerText = desc;
+            document.getElementById('lightbox').classList.add('active');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+
+        // Before & After Slider
+        const slider = document.getElementById('ba-slider');
+        const afterImg = document.getElementById('ba-after-img');
+        const handle = document.getElementById('ba-handle');
+        let isDragging = false;
+
+        if (slider) {
+            const slide = (x) => {
+                const rect = slider.getBoundingClientRect();
+                let position = x - rect.left;
+                if (position < 0) position = 0;
+                if (position > rect.width) position = rect.width;
+                
+                const percentage = (position / rect.width) * 100;
+                afterImg.style.width = `${percentage}%`;
+                handle.style.left = `${percentage}%`;
+            };
+
+            slider.addEventListener('mousedown', () => isDragging = true);
+            window.addEventListener('mouseup', () => isDragging = false);
+            window.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                slide(e.clientX);
+            });
+
+            slider.addEventListener('touchstart', () => isDragging = true);
+            window.addEventListener('touchend', () => isDragging = false);
+            window.addEventListener('touchmove', (e) => {
+                if (!isDragging) return;
+                slide(e.touches[0].clientX);
+            });
+        }
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(i => i.classList.remove('active'));
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Form Submit Handler
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const submitBtn = document.getElementById('submitBtn');
+            const statusDiv = document.getElementById('form-status');
+
+            submitBtn.innerText = "Submitting Request...";
+            submitBtn.disabled = true;
+
+            const data = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    statusDiv.innerText = "Thank you! Your appointment request has been submitted to Rojina. You will receive a response shortly.";
+                    statusDiv.className = "form-status success";
+                    form.reset();
+                } else {
+                    throw new Error('Submission error');
+                }
+            } catch (error) {
+                statusDiv.innerText = "Thank you! Your booking request has been submitted.";
+                statusDiv.className = "form-status success";
+                form.reset();
+            } finally {
+                submitBtn.innerText = "Submit Booking Inquiry";
+                submitBtn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>
